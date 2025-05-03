@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+
+  --font-body: "Josefin Sans", "sans-serif"; 
+  --font-special: "Roboto", "sans-serif"; 
+  /* --font-special: "Nunito", "sans-serif";  */
+
+  --color-brown: #53423e;
+  --color-lightBrown: #645550;
+  --color-darkBrown: #2c2523;
+  --color-black: #1e1917;
+  --color-white: #f1e1d9;
+  --color-cyan: #15d1e9;
+  --color-lightCyan: #88e5f0;
+  --color-darkCyan: #009fb3;
+  --color-orange: #fb9718;
+  --color-lightOrange: #fac27b;
+  --color-darkOrange: #d28422;
+  --color-grey: #626965;
+  --color-lightGrey: #978580;
+  --color-darkGrey: #3f4441;
+
+  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+  --shadow-orangeMediumShadow: 10px 10px 200px 150px rgba(240, 169, 79, 0.5);
+
+  --screen-sm: 350px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+  --screen-2xl: 1536px;
+
+}
+
+:root {
+
+  --font-body: "Josefin Sans", "sans-serif"; 
+  --font-special: "Roboto", "sans-serif"; 
+  /* --font-special: "Nunito", "sans-serif";  */
+
+  --color-brown: #53423e;
+  --color-lightBrown: #645550;
+  --color-darkBrown: #2c2523;
+  --color-black: #1e1917;
+  --color-white: #f1e1d9;
+  --color-cyan: #15d1e9;
+  --color-lightCyan: #88e5f0;
+  --color-darkCyan: #009fb3;
+  --color-orange: #fb9718;
+  --color-lightOrange: #fac27b;
+  --color-darkOrange: #d28422;
+  --color-grey: #626965;
+  --color-lightGrey: #978580;
+  --color-darkGrey: #3f4441;
+}
+
+body {
+  background-color: var(--color-darkBrown);
+  color: var(--color-white);
+  font-family: var(--font-body);
+}
+
+.border-cyan {
+  border-color: var(--color-cyan);
+  border-width: 1px; 
+  border-style: solid;
+}
