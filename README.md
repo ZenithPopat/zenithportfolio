@@ -4,7 +4,7 @@ This is my personal developer portfolio built using **React**, **TailwindCSS**, 
 
 ## 🚀 Live Demo
 
-[🔗 View Portfolio](https://your-portfolio.vercel.app)
+[🔗 View Portfolio](https://zenithpopat.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -25,14 +25,17 @@ This is my personal developer portfolio built using **React**, **TailwindCSS**, 
 
 ## 📸 Screenshots
 
-*(Add screenshots or a GIF preview if desired)*
+![SS1](https://github.com/user-attachments/assets/29ca59d6-436f-4929-bb11-dce68c3dbc4c)
+![SS2](https://github.com/user-attachments/assets/9c3189a2-e882-4120-9bd6-2373bb6fbcaa)
+![SS3](https://github.com/user-attachments/assets/94614df8-e62d-4c35-992f-de15f794b43c)
+![SS4](https://github.com/user-attachments/assets/14af69ad-3784-4061-8d75-43760008d2c5)
 
 ## 🧑‍💻 Author
 
 **Zenith**  
 - GitHub: [@ZenithPopat](https://github.com/ZenithPopat)
 - LinkedIn: [Zenith Popat](https://www.linkedin.com/in/zenith-popat/)  
-- Portfolio: [your-portfolio.vercel.app](https://your-portfolio.vercel.app)
+- Portfolio: [zenithpopat.vercel.app](https://zenithpopat.vercel.app/)
 
 ---
 
