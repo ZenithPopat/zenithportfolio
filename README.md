@@ -30,8 +30,8 @@ This is my personal developer portfolio built using **React**, **TailwindCSS**, 
 ## 🧑‍💻 Author
 
 **Zenith**  
-- GitHub: [@yourusername]([https://github.com/yourusername](https://github.com/ZenithPopat))  
-- LinkedIn: [Your LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/zenith-popat/))  
+- GitHub: [@ZenithPopat](https://github.com/ZenithPopat)
+- LinkedIn: [Zenith Popat](https://www.linkedin.com/in/zenith-popat/)  
 - Portfolio: [your-portfolio.vercel.app](https://your-portfolio.vercel.app)
 
 ---
