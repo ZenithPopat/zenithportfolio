@@ -1,12 +1,41 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio built using **React**, **TailwindCSS**, and **Framer Motion**. It showcases my skills, projects, and contact information in a responsive and animated design.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🔗 View Portfolio](https://your-portfolio.vercel.app)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React** – Component-based architecture
+- 🎨 **TailwindCSS** – Utility-first styling
+- 🌀 **Framer Motion** – Smooth animations
+- 🌐 **JavaScript**
+- ☁️ **Vercel** – Deployment
+- 🔗 **Git & GitHub** – Version control
+
+## 💡 Features
+
+- Responsive and modern UI
+- Smooth animations and transitions
+- Projects section with live links
+- Contact section with social links
+- Deployed using Vercel
+
+## 📸 Screenshots
+
+*(Add screenshots or a GIF preview if desired)*
+
+## 🧑‍💻 Author
+
+**Zenith**  
+- GitHub: [@yourusername]([https://github.com/yourusername](https://github.com/ZenithPopat))  
+- LinkedIn: [Your LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/zenith-popat/))  
+- Portfolio: [your-portfolio.vercel.app](https://your-portfolio.vercel.app)
+
+---
+
+### ⭐️ Support
+
+If you like this project, consider starring the repo or sharing it with others!
