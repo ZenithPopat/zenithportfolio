@@ -13,7 +13,7 @@ const links = [
 const NavBarLinks = () => {
   return (
     <ul
-      className="flex gap-6 text-white white-bold text-center py-4 lg:flex-row sm:flex-col lg:relative sm:absolute
+      className="flex gap-6 text-white font-bold text-center py-4 lg:flex-row sm:flex-col lg:relative sm:absolute
                    sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-cyan/30 backdrop-blur-lg
                    lg:bg-black sm:w-full"
     >
