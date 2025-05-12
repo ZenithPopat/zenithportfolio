@@ -11,6 +11,7 @@ import ContactMeMain from "./components/contactMe/ContactMeMain";
 import FooterMain from "./components/footer/FooterMain";
 import BackToTopButton from "./components/backToTopButton/backToTopButton";
 import WhatsNextMain from "./components/whatsNextSection/WhatsNextMain";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -29,8 +30,8 @@ function App() {
       <div id="contactMe">
         <ContactMeMain />
       </div>
-      <BackToTopButton />
       <FooterMain />
+      <Analytics />
     </main>
   );
 }

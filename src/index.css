@@ -58,6 +58,7 @@ body {
   background-color: var(--color-darkBrown);
   color: var(--color-white);
   font-family: var(--font-body);
+  overflow-x: hidden;
 }
 
 .border-cyan {

@@ -1,4 +1,3 @@
-import React from "react";
 import { BiRightTopArrowCircle } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -26,7 +25,7 @@ const SingleProject = ({
     >
       <div>
         <h2
-          className={`md:text-3xl sm:text-2xl text-orange ${
+          className={`md:text-3xl sm:text-center sm:text-2xl text-orange ${
             align === "left" ? "md:text-right" : "md:text-left"
           }`}
         >

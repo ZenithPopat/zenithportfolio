@@ -17,7 +17,7 @@ const WhatsNextSingle = ({ name, year, align, type, image, description }) => {
     >
       <div>
         <h2
-          className={`md:text-3xl sm:text-2xl text-orange ${
+          className={`md:text-3xl sm:text-center sm:text-2xl text-orange ${
             align === "left" ? "md:text-right" : "md:text-left"
           }`}
         >
