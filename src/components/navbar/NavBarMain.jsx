@@ -22,7 +22,7 @@ const NavBarMain = () => {
           <NavBarLogo />
         </button>
         <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
-          <NavBarLinks />
+          <NavBarLinks closeMenu={() => setMenuOpen(false)} />
         </div>
         <NavBarBtn />
         <button

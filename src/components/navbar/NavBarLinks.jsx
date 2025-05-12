@@ -10,7 +10,7 @@ const links = [
   { link: "What's Next", section: "whatsnext" },
 ];
 
-const NavBarLinks = () => {
+const NavBarLinks = ({ closeMenu }) => {
   return (
     <ul
       className="flex gap-6 text-white font-bold text-center py-4 lg:flex-row sm:flex-col lg:relative sm:absolute
@@ -26,6 +26,7 @@ const NavBarLinks = () => {
               spy={true}
               duration={500}
               offset={-130}
+              onClick={closeMenu}
               className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
             >
               {link.link}
