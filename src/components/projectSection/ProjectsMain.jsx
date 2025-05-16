@@ -20,8 +20,8 @@ const projects = [
     year: "Date: 2024 - Present",
     align: "left",
     image: "../../images/blog.png",
-    link: "#",
-    type: "deployment",
+    link: "https://beyondzenith.vercel.app/",
+    type: "live",
     description:
       "Created a minimal blog using Next.js and Markdown. Focuses on developer insights, tutorials, and technical notes, fully responsive and SEO-optimized.",
   },
