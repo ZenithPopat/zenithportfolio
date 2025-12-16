@@ -61,6 +61,8 @@ const SingleProject = ({
               ? "🎓 University Project"
               : type === "deployment"
               ? "🚀 Deployment in Progress"
+              : type === "personal"
+              ? "🧪 Iteration Phase"
               : "🔒 Company Project - Not Publicly Accessible"}
           </span>
         )}

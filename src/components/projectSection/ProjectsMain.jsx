@@ -15,20 +15,20 @@ const projects = [
     description:
       "Built with React, Tailwind, and Framer Motion. Features a responsive design, interactive UI, and smooth scrolling experience to showcase professional profile, experience, and projects.",
   },
-  {
-    name: "Beyond Zenith - Blog Platform",
-    year: "Date: 2024 - Present",
-    align: "left",
-    image: "../../images/blog.png",
-    link: "#",
-    type: "deployment",
-    description:
-      "Created a minimal blog using Next.js and Markdown. Focuses on developer insights, tutorials, and technical notes, fully responsive and SEO-optimized.",
-  },
+  // {
+  //   name: "Beyond Zenith - Blog Platform",
+  //   year: "Date: 2024 - Present",
+  //   align: "left",
+  //   image: "../../images/blog.png",
+  //   link: "#",
+  //   type: "deployment",
+  //   description:
+  //     "Created a minimal blog using Next.js and Markdown. Focuses on developer insights, tutorials, and technical notes, fully responsive and SEO-optimized.",
+  // },
   {
     name: "Task Manager WebApp",
     year: "Date: 2024 - Present",
-    align: "right",
+    align: "left",
     image: "../../images/taskManager.png",
     link: "https://task-manager-delta-ivory.vercel.app/",
     type: "live",
@@ -38,12 +38,21 @@ const projects = [
   {
     name: "Unity Puzzle Game Prototype",
     year: "Date: 2024 - Present",
-    align: "left",
+    align: "right",
     image: "../../images/game.png",
     link: "https://play.unity.com/en/user/3bca4cf5-9dd4-4953-b765-311e3df87429",
     type: "live",
     description:
       "A basic Unity-based puzzle game built to explore AR/VR development fundamentals and game loop logic.",
+  },
+  {
+    name: "Beyond Zenith — Personal Blog Platform",
+    year: "2024",
+    align: "left",
+    image: "../../images/blog.png",
+    type: "personal",
+    description:
+      "Designed and built a personal blog platform using Next.js and Markdown. Focused on clean UI, content structure, responsive layouts, and SEO fundamentals. Currently paused while iterating on architecture and publishing workflow.",
   },
   {
     name: "Comparative Study: VR Powerwall Software Platforms",
