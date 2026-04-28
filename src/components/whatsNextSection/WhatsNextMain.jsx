@@ -6,15 +6,6 @@ import WhatsNextText from "./WhatsNextText";
 
 const upcoming = [
   {
-    name: "Thesis - 2D/3D Gaussian Splatting Web Viewer",
-    year: "Ongoing",
-    align: "right",
-    type: "university",
-    image: "../../images/3dpc.jpeg",
-    description:
-      "Developing an interactive 2D/3D Gaussian Splatting viewer using BabylonJS for visualizing complex data structures on the web. This project blends real-time rendering with research-driven implementation, contributing toward my master's thesis.",
-  },
-  {
     name: "Personal Full-Stack App (Private)",
     year: "Ongoing",
     align: "left",

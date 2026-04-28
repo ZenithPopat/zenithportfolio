@@ -7,7 +7,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const projects = [
   {
     name: "Developer Portfolio Website",
-    year: "Date: 2024 - Present",
+    year: "Deployment Year: 2024",
     align: "right",
     image: "../../images/portfolio.png",
     link: "#",
@@ -26,18 +26,18 @@ const projects = [
   //     "Created a minimal blog using Next.js and Markdown. Focuses on developer insights, tutorials, and technical notes, fully responsive and SEO-optimized.",
   // },
   {
-    name: "Task Manager WebApp",
-    year: "Date: 2024 - Present",
+    name: "Beyond Zenith — Personal Blog Platform",
+    year: "Deployment Year: 2024",
     align: "left",
-    image: "../../images/taskManager.png",
-    link: "https://task-manager-delta-ivory.vercel.app/",
-    type: "live",
+    image: "../../images/blog.png",
+    type: "personal",
+    link: "#",
     description:
-      "A simple React-based productivity tool for managing daily tasks. Features include persistent storage using localStorage, task filtering and sorting by priority and due dates, and full CRUD functionality. Built as a personal project to strengthen core React and state management skills.",
+      "Designed and built a personal blog platform using Next.js and Markdown. Focused on clean UI, content structure, responsive layouts, and SEO fundamentals. Currently paused while iterating on architecture and publishing workflow.",
   },
   {
     name: "Unity Puzzle Game Prototype",
-    year: "Date: 2024 - Present",
+    year: "Deployment Year: 2024",
     align: "right",
     image: "../../images/game.png",
     link: "https://play.unity.com/en/user/3bca4cf5-9dd4-4953-b765-311e3df87429",
@@ -46,18 +46,29 @@ const projects = [
       "A basic Unity-based puzzle game built to explore AR/VR development fundamentals and game loop logic.",
   },
   {
-    name: "Beyond Zenith — Personal Blog Platform",
-    year: "2024",
+    name: "Task Manager WebApp",
+    year: "Deployment Year: 2024",
     align: "left",
-    image: "../../images/blog.png",
-    type: "personal",
+    image: "../../images/taskManager.png",
+    link: "https://task-manager-delta-ivory.vercel.app/",
+    type: "live",
     description:
-      "Designed and built a personal blog platform using Next.js and Markdown. Focused on clean UI, content structure, responsive layouts, and SEO fundamentals. Currently paused while iterating on architecture and publishing workflow.",
+      "A simple React-based productivity tool for managing daily tasks. Features include persistent storage using localStorage, task filtering and sorting by priority and due dates, and full CRUD functionality. Built as a personal project to strengthen core React and state management skills.",
+  },
+  {
+    name: "Interactive Scene Editor for Gaussian Splatting-based 3D Models (Master's Thesis Project)",
+    year: "Deployment Year: 2025",
+    align: "right",
+    type: "live",
+    image: "../../images/3dgsEditor.png",
+    link: "https://3dgseditor.vercel.app/",
+    description:
+      "A web-based editor that allows users to load, combine, and manipulate multiple Gaussian splat datasets within a single scene. The system adopts a unified representation in which all splats are merged into a single GPU-efficient structure. At the same time, object-level interaction is preserved through a metadata-driven design.",
   },
   {
     name: "Comparative Study: VR Powerwall Software Platforms",
-    year: "Date: 2024",
-    align: "right",
+    year: "Deployment Year: 2024",
+    align: "left",
     image: "../../images/powerwall.PNG",
     type: "university",
     description:
@@ -66,7 +77,7 @@ const projects = [
   {
     name: "Custom GitHub-Style Tagging System",
     year: "Role: Web Developer (2024-2025)",
-    align: "left",
+    align: "right",
     image: "../../images/tags.jpg",
     type: "company",
     description:
@@ -75,7 +86,7 @@ const projects = [
   {
     name: "Anti-Cheating Module for Online Assessment System",
     year: "Role: Product Development Engineer (2020-2021)",
-    align: "right",
+    align: "left",
     image: "../../images/cheat.jpg",
     type: "company",
     description:
@@ -84,7 +95,7 @@ const projects = [
   {
     name: "Time Tracking for Online Examinations",
     year: "Role: Product Development Engineer (2020-2021)",
-    align: "left",
+    align: "right",
     image: "../../images/test.jpg",
     type: "company",
     description:

@@ -36,19 +36,34 @@ const heroText = () => {
         <br /> high-performance web applications with clean,
         <br /> maintainable code.
       </motion.p>
-      <motion.a
-        variants={fadeIn()}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0 }}
-        className="border border-orange rounded-full py-2 px-4 text-lg flex items-center
+      <div className="flex gap-4 md:justify-start sm:justify-center">
+        <motion.a
+          variants={fadeIn()}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0 }}
+          className="border border-orange rounded-full py-2 px-4 text-lg flex items-center
                         mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center
                         text-white hover:text-cyan ease-in-out"
-        href="../../../pdfs/Zenith Popat.pdf"
-        download="Zenith_Popat_Resume.pdf"
-      >
-        Download Resume
-      </motion.a>
+          href="../../../pdfs/Zenith_Popat_Resume.pdf"
+          download="Zenith_Popat_Resume.pdf"
+        >
+          Download Resume
+        </motion.a>
+        <motion.a
+          variants={fadeIn()}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0 }}
+          className="border border-orange rounded-full py-2 px-4 text-lg flex items-center
+                        mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center
+                        text-white hover:text-cyan ease-in-out"
+          href="../../../pdfs/Zenith_Popat_CV.pdf"
+          download="Zenith_Popat_CV.pdf"
+        >
+          Download CV
+        </motion.a>
+      </div>
       {/* <motion.a
         variants={fadeIn("left", 0.8)}
         initial="hidden"
